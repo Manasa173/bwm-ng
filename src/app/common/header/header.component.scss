@@ -1,0 +1,31 @@
+// @import 'variables';
+@import "../../../styles/_variables.scss";
+
+.navbar{
+    padding: 20px;
+    margin-bottom: 40px;
+    .bwmsearch{
+        height: 50px;
+        width: 300px;
+    }
+    .navbar-brand{
+        margin-right: 30px;
+        font-size: 30px;
+        letter-spacing: 1;
+        color:$main-color;
+        font-weight: 500;
+    }
+    .nav-item{
+        font-size: 14px;
+    }
+    .btn-bwm-search{
+        border-color: #f44336;
+        color: #f44336;
+        &:hover,&:focus,&:active{
+            background-color: transparent;
+            border-color: #f44336 !important;
+            color: #f44336 !important;
+            box-shadow: none; 
+        }
+    }
+}
