@@ -1,0 +1,14 @@
+<a routerLink="/rentals">Back to Rentals</a>
+
+
+<div *ngIf="rental">
+  <p> {{rental.id}}</p>
+  <p> {{rental.title}}</p>
+  <p> {{rental.city}}</p>
+  <p> {{rental.street}}</p>
+  <p> {{rental.category}}</p>
+  <p> {{rental.bedrooms}} bedrooms</p>
+  <p>Description: {{rental.description}}</p>
+  <p>DailyRate: {{rental.dailyRate}} $</p>
+  <p> Shared: {{rental.id}}</p>
+</div>
